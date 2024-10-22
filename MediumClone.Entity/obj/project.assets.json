@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/MediumClone.Core.dll": {}
         }
+      },
+      "MediumClone.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MediumClone.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediumClone.Service.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../MediumClone.Core/MediumClone.Core.csproj",
       "msbuildProject": "../MediumClone.Core/MediumClone.Core.csproj"
+    },
+    "MediumClone.Service/1.0.0": {
+      "type": "project",
+      "path": "../MediumClone.Service/MediumClone.Service.csproj",
+      "msbuildProject": "../MediumClone.Service/MediumClone.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MediumClone.Core >= 1.0.0"
+      "MediumClone.Core >= 1.0.0",
+      "MediumClone.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -32,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+      "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj",
       "projectName": "MediumClone.Entity",
-      "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+      "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj",
       "packagesPath": "/Users/cantasar/.nuget/packages/",
-      "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/obj/",
+      "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cantasar/.nuget/NuGet/NuGet.Config"
@@ -51,8 +67,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj": {
-              "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj"
+            "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj": {
+              "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj"
+            },
+            "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj": {
+              "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj"
             }
           }
         }

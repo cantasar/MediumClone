@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MediumClone.Core\MediumClone.Core.csproj" />
+    <ProjectReference Include="..\MediumClone.Service\MediumClone.Service.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

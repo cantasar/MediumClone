@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/MediumClone.Service.csproj": {}
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj": {}
   },
   "projects": {
-    "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/MediumClone.Service.csproj": {
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/MediumClone.Service.csproj",
+        "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj",
         "projectName": "MediumClone.Service",
-        "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/MediumClone.Service.csproj",
+        "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj",
         "packagesPath": "/Users/cantasar/.nuget/packages/",
-        "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/obj/",
+        "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cantasar/.nuget/NuGet/NuGet.Config"

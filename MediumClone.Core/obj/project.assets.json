@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj",
+      "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj",
       "projectName": "MediumClone.Core",
-      "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj",
+      "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj",
       "packagesPath": "/Users/cantasar/.nuget/packages/",
-      "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/obj/",
+      "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cantasar/.nuget/NuGet/NuGet.Config"

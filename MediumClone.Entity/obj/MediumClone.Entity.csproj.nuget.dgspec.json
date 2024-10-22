@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj": {}
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj": {}
   },
   "projects": {
-    "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj": {
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj",
+        "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj",
         "projectName": "MediumClone.Core",
-        "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj",
+        "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj",
         "packagesPath": "/Users/cantasar/.nuget/packages/",
-        "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/obj/",
+        "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cantasar/.nuget/NuGet/NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj": {
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+        "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj",
         "projectName": "MediumClone.Entity",
-        "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+        "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/MediumClone.Entity.csproj",
         "packagesPath": "/Users/cantasar/.nuget/packages/",
-        "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/obj/",
+        "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cantasar/.nuget/NuGet/NuGet.Config"
@@ -84,10 +84,71 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj": {
-                "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj"
+              "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj": {
+                "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Core/MediumClone.Core.csproj"
+              },
+              "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj": {
+                "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj",
+        "projectName": "MediumClone.Service",
+        "projectPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/MediumClone.Service.csproj",
+        "packagesPath": "/Users/cantasar/.nuget/packages/",
+        "outputPath": "/Users/cantasar/Desktop/MediumClone/MediumClone.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cantasar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

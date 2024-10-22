@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediumClone.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6511aa62787deb2ec9932c1a23f9d64ddd89d092")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f1297e554d5da674020daec4bf2f9c6d28d59f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediumClone.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediumClone.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

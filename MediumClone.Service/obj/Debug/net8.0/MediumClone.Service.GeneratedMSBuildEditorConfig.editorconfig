@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MediumClone.Service
-build_property.ProjectDir = /Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Service/
+build_property.ProjectDir = /Users/cantasar/Desktop/MediumClone/MediumClone.Service/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
