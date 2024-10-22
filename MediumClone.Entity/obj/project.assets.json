@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MediumClone.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MediumClone.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediumClone.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediumClone.Core/1.0.0": {
+      "type": "project",
+      "path": "../MediumClone.Core/MediumClone.Core.csproj",
+      "msbuildProject": "../MediumClone.Core/MediumClone.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MediumClone.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/cantasar/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+      "projectName": "MediumClone.Entity",
+      "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/MediumClone.Entity.csproj",
+      "packagesPath": "/Users/cantasar/.nuget/packages/",
+      "outputPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Entity/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/cantasar/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj": {
+              "projectPath": "/Users/cantasar/MediumClone/MediumClone.Web/MediumClone.Core/MediumClone.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
