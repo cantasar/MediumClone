@@ -1,19 +1,49 @@
-@Model List<Post>
+@model PostsViewModel
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<br>
-	Posts Index
-	<br>
-	@foreach (var post in Model)
-	{
-		<p>@post.Title</p>
-	}
-</body>
-</html>
+<div class="main-content">
+    @foreach (var post in Model.Posts)
+    {
+        @if (post.IsActive) // Sadece aktif postları göster
+        {
+            <div class="post-card p-3 mb-3 border rounded d-flex">
+
+                <div class="post-details flex-grow-1">
+                    <h5 class="post-title mb-1">
+                        <a href="@Url.Action("Details", "Post", new { id = post.PostId })" class="text-dark text-decoration-none">@post.Title</a>
+                    </h5>
+                    <small class="text-muted d-block mb-2">
+                        @if (post.User != null)
+                        {
+                            @post.User.UserName  @post.PublishedOn.ToString("MMM dd")
+                        }
+                        else
+                        {
+                            <span>Unknown Author • @post.PublishedOn.ToString("MMM dd")</span>
+                        }
+                    </small>
+                    <p class="text-muted mb-0">
+                        @(post.Content)
+                    </p>
+					<!-- Icons Section -->
+                    <div class="post-icons mt-2">
+                        <a href="#" class="text-muted me-2" title="Like">
+                            <i class="bi bi-heart"></i>
+                        </a>
+                        <a href="#" class="text-muted me-2" title="Comment">
+                            <i class="bi bi-chat"></i>
+                        </a>
+                        <a href="#" class="text-muted me-2" title="Share">
+                            <i class="bi bi-share"></i>
+                        </a>
+                    </div>
+                </div>
+                @if (!string.IsNullOrEmpty(post.Image))
+                {
+                    <div class="post-image me-3" style="width: 120px;">
+                        <img src="~/img/@post.Image" alt="Post Image" class="img-fluid rounded">
+                    </div>
+                }
+            </div>
+        }
+    }
+</div>

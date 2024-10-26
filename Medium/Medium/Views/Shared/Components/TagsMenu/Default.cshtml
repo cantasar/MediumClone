@@ -1,0 +1,12 @@
+@model List<Tag>
+
+<div class="mb-4 p-3 bg-white shadow-sm rounded">
+	<h5>Recommended Topics</h5>
+	<div class="d-flex flex-wrap gap-2">
+		@foreach (var tags in Model)
+		{
+			<a href="#" class="badge bg-light text-dark me-2 mb-2">@tags.Text</a>
+		}
+
+	</div>
+</div>

@@ -9,7 +9,7 @@ public class Post
 	public string? Content { get; set; }
 	public string? Image { get; set; }
 	public DateTime PublishedOn { get; set; }
-	public bool IsActice { get; set; }
+	public bool IsActive { get; set; }
 	
 	public int UserId { get; set; }
 	public User User { get; set; } = null!;

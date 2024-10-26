@@ -1,0 +1,22 @@
+@model List<Post>
+
+
+
+<div class="staff-picks mb-4 p-3 bg-white shadow-sm rounded">
+
+<h5 class="mb-3">Staff Picks</h5>
+	@foreach (var post in Model)
+	{
+
+		<div class=" align-items-center mb-3">
+			<div class="">
+			<img src="https://placehold.co/20" alt="Author Image" class="rounded-circle me-2" width="20">
+				<a class="mb-0 text-muted" style="font-size: 0.8em;">John Doe</a>
+			</div>
+			<div class="row">
+				<strong>@post.Title</strong>
+			</div>
+		</div>
+
+	}
+</div>
