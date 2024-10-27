@@ -1,0 +1,67 @@
+@model Post
+
+<div class="row">
+	<div class="col">
+		<div class="bg-white p-4">
+			<h1 class="h4 mb-4">@Model.Title</h1>
+			<div class="tags">
+			@foreach (var tag in Model.Tags)
+			{
+				<a href="/posts/tag/@tag.Url" class="badge bg-primary bg-opacity-10 text-danger mb-2 fw-bold">@tag.Text</a>
+			}
+			</div>
+			<img src="~/img/@Model.Image" class="img-fluid rounded">
+			<div class="mb-5">
+				@Model.Content
+			</div>
+
+			<div class="card comments">
+				<div class="card-body">
+					<h5 class="card-title">Comments</h5>
+					<h6 class="card-title ">@Model.Comments.Count() Comments</h6>
+					<div class="card-text mt-3">
+
+						@foreach (var comment in Model.Comments)
+						{
+							<div class="card m-4 p-3">
+								<div class="d-flex align-items-center">
+									<img src="~/img/@comment.User.Image" alt="Author Image" class="rounded-circle me-2 avatar" width="20">
+									<a class="mb-0 text-muted" style="font-size: 0.8em;">
+										@comment.User.UserName
+									</a>
+								</div>
+								<div class="row">
+									<span class=" text-muted" style="font-size: 0.8em;">@comment.PublishedOn</span>
+									<p class="mb-0">@comment.Text</p>
+								</div>
+							</div>
+						}
+
+					</div>
+				</div>
+			</div>
+
+			<hr>
+			<div class="p-2">
+				<h5>Leave a Comment</h5>
+				<form method="post" action="/posts/AddComment">
+					<input type="hidden" name="postId" value="@Model.PostId" />
+					<input type="hidden" name="Url" value="@Model.Url" />
+					<div class="mb-3">
+						<label for="UserName" class="form-label">Name</label>
+						<input type="text" name="UserName" id="UserName" class="form-control" id="name">
+					</div>
+					<div class="mb-3">
+						<label for="Text" class="form-label">Comment</label>
+						<textarea class="form-control" name="Text" id="Text" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+
+
+
+		</div>
+	</div>
+
+</div>

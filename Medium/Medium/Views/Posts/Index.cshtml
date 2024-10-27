@@ -9,7 +9,7 @@
 
                 <div class="post-details flex-grow-1">
                     <h5 class="post-title mb-1">
-                        <a href="@Url.Action("Details", "Post", new { id = post.PostId })" class="text-dark text-decoration-none">@post.Title</a>
+                        <a href="/posts/details/@post.Url" class="text-dark text-decoration-none">@post.Title</a>
                     </h5>
                     <small class="text-muted d-block mb-2">
                         @if (post.User != null)
